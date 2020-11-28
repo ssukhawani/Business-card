@@ -1,16 +1,24 @@
 body{
     margin: 0;
-    background-color: #512DA8;
+    background-color: #b3b3b3;
+
 }
 
-.birthday-card{
+.container{
     margin: 40px auto;
     padding: 16px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px 1px;
+    max-width: 350px;
+    border-radius: 5px;
     text-align: center;
-    background-color: white;
-    max-width: 400px;
-}
-.birthday-card img{
-    width: 100%;
 }
 
+img{
+    width: 90%;
+}
+
+ul{
+    list-style: none;
+    line-height: 25px;
+}
